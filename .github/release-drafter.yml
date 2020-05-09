@@ -1,0 +1,28 @@
+---
+name-template: 'v$NEXT_PATCH_VERSION'
+tag-template: 'v$NEXT_PATCH_VERSION'
+categories:
+  - title: '🚀 New Features'
+    label: 'enhancement'
+  - title: '💣 Breaking Change'
+    label: 'breaking change'
+  - title: '🐛 Bug Fixes'
+    label: 'bug'
+  - title: '📝 Documentation'
+    label: 'docs'
+  - title: '🔨 Maintenance'
+    label: 'chore'
+exclude-labels:
+  - 'skip changelog'
+change-template: '- $TITLE (#$NUMBER, @$AUTHOR)'
+template: |
+  # Installing rsk
+
+  Install with pip: `pip install rsk==$NEXT_PATCH_VERSION`
+
+  Or see [README.md](https://github.com/edran/rsk/blob/v$NEXT_PATCH_VERSION/README.md) for further instructions.
+
+  # New in rsk v$NEXT_PATCH_VERSION
+
+  $CHANGES
+...
