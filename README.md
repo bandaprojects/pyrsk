@@ -27,3 +27,9 @@ initial setup.
 There will probably be nothing to see here :) You have been warned. Also, most
 of the interaction on this repo will be in Italian, so please forgive us in
 advance for the colourful language.
+
+## FAQs
+
+### Is this a good idea?
+
+I don't know. YOLO.
